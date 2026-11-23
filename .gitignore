@@ -1,0 +1,26 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (segredos) — só o .env.example vai para o Git
+.env
+.env.*
+!.env.example
+
+# Banco de dados local do backend
+backend/data/
+*.db
+*.db-*
+
+# Build / Expo
+taskapp/.expo/
+taskapp/dist/
+taskapp/web-build/
+.vercel
+
+# Material do curso (não publicar)
+*.pdf
+*.pptx
+
+# Sistema / editor
+.DS_Store
+*.log
